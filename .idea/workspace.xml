@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ede1a57-6823-4960-9085-bac97c26c4fd" name="Changes" comment="working pptx sending">
+    <list default="true" id="5ede1a57-6823-4960-9085-bac97c26c4fd" name="Changes" comment="bug fixes stable pptx sending">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -123,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744209887341</updated>
-      <workItem from="1744209888405" duration="5876000" />
+      <workItem from="1744209888405" duration="6156000" />
     </task>
     <task id="LOCAL-00001" summary="working pptx sending">
       <option name="closed" value="true" />
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744218063334</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bug fixes stable pptx sending">
+      <option name="closed" value="true" />
+      <created>1744218824337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744218824337</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,9 +149,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working pptx sending" />
-    <option name="LAST_COMMIT_MESSAGE" value="working pptx sending" />
+    <MESSAGE value="bug fixes stable pptx sending" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixes stable pptx sending" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SertAutogenPy$main.coverage" NAME="main Coverage Results" MODIFIED="1744217950325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SertAutogenPy$main.coverage" NAME="main Coverage Results" MODIFIED="1744218767758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
