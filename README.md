@@ -38,25 +38,25 @@ pip install pandas python-pptx yagmail comtypes sendgrid
 ### Основные команды
 1. **Создание сертификатов**:
    ```bash
-   python script.py --mode generate --limit 10
+   python main.py --mode generate --limit 10
    ```
    - Создаёт 10 PDF-сертификатов в папке `certificates`.
 
 2. **Отправка сертификатов через Gmail**:
    ```bash
-   python script.py --mode send --limit 5 --email_service gmail --start_index 0
+   python main.py --mode send --limit 5 --email_service gmail --start_index 0
    ```
    - Отправляет 5 сертификатов через Gmail, начиная с первой записи.
 
 3. **Отправка через SendGrid**:
    ```bash
-   python script.py --mode send --limit 5 --email_service sendgrid --start_index 0
+   python main.py --mode send --limit 5 --email_service sendgrid --start_index 0
    ```
    - Отправляет 5 сертификатов через SendGrid.
 
 4. **Создание и отправка разом**:
    ```bash
-   python script.py --mode all --limit 50 --email_service gmail
+   python main.py --mode all --limit 50 --email_service gmail
    ```
    - Создаёт и отправляет 50 сертификатов через Gmail.
 
@@ -72,15 +72,15 @@ pip install pandas python-pptx yagmail comtypes sendgrid
 ### Пример полного процесса
 1. Создать все 564 сертификата:
    ```bash
-   python script.py --mode generate
+   python main.py --mode generate
    ```
 2. Отправить первые 300 через Gmail:
    ```bash
-   python script.py --mode send --limit 300 --start_index 0 --email_service gmail
+   python main.py --mode send --limit 300 --start_index 0 --email_service gmail
    ```
 3. Отправить оставшиеся 264:
    ```bash
-   python script.py --mode send --limit 264 --start_index 300 --email_service gmail
+   python main.py --mode send --limit 264 --start_index 300 --email_service gmail
    ```
 
 ## Логирование
