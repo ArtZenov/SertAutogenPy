@@ -1,0 +1,4 @@
+pandas~=2.2.3
+comtypes~=1.4.10
+python-pptx~=1.0.2
+sendgrid~=6.11.0
