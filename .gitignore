@@ -4,7 +4,8 @@ certificates/
 
 cert_log.txt
 
-data/test_list.xlsx
+data/
+*.xlsx
 
 __pycache__/
 *.pyc
@@ -22,6 +23,7 @@ secrets.py
 .vscode/
 *.sublime-project
 *.sublime-workspace
+.venv/
 
 .DS_Store
 Thumbs.db
