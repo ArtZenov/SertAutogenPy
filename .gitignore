@@ -27,3 +27,4 @@ secrets.py
 
 .DS_Store
 Thumbs.db
+/data/
